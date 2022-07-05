@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div id="container">
+        <div style="color: white">
+            <h3>Points</h3>
+            Car1:
+            <div id="car-1-points">0</div>
+            Car2:
+            <div id="car-2-points">0</div>
+        </div>
+        <div id="mypoints-cont" style="color: white;">
+            <h3>My Points</h3>
+            <div id="mypoints">0</div>
+        </div>
+        <div id="race-line" class="race-line pos"></div>
+        <div id="car1" class="car pos"></div>
+        <div id="race-line-2" class="race-line pos"></div>
+        <div id="car2" class="car pos"></div>
+        <div id="finish-line"></div>
+        <div id="winner">
+            <h1 style="color: white;">Pick a car!</h1>
+            <div class="buttons">
+                <button id="pick-car-1" class="btn">Car1</button>
+                <button id="pick-car-2" class="btn">Car2</button>
+            </div>
+        </div>
+        <div style=" display:flex;color: white; position: absolute; top: 80vh; left: 50%; transform: translateX(-50%);">
+            <h1 id="winnerIs" style="display: none;">The Winner Is </h1>
+            <h1 id="winner-car" style="color: white;"></h1>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
